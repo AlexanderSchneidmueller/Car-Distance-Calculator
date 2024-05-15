@@ -1,0 +1,22 @@
+>>Datenspeicherung:
+Für die Datenspeicherung wird eine Datenbank verwendet, um Eingaben wie Verbrauch (consumption), Akku-Kapazität (capacity), Fahrmodus (driving-style) und Wetter (weather) zu speichern. 
+Zusätzlich können neue Variablen aus einem Navigationsprogramm aufgenommen werden, nämlich die durchschnittliche Geschwindigkeit und die Fahrzeit.
+
+Tabelle:
+- Spalten: Verbrauch, Kapazität, Fahrmodus, Wetter, Durchschnittliche Geschwindigkeit, Fahrzeit
+- Jede Zeile repräsentiert einen Datensatz für eine bestimmte Fahrt
+- Durch die Aufnahme von Daten aus einem Navigationsprogramm wie durchschnittliche Geschwindigkeit und Fahrzeit wird eine präzisere Erfassung des Fahrverhaltens ermöglicht, was wiederum zur Verbesserung der Genauigkeit der Reichweitenberechnungen beiträgt.
+
+>>Lernfähigkeit der Anwendung:
+Entwicklung eines Algorithmus zur Verwendung der gespeicherten Datensätze aus der Datenbank für genauere Berechnungen.
+Die gespeicherten Datensätze, insbesondere in Kombination mit der durchschnittlichen Geschwindigkeit und der Fahrzeit, helfen dabei, die Variablen für den Wettereinfluss und den Fahrmodus genauer anzupassen.
+Durch kontinuierliches Sammeln von Daten bei jeder neuen Fahrt kann die Anwendung ihre Berechnungsmodelle verbessern und genauere Vorhersagen über die Reichweite treffen.
+Die Kombination des Programmes mit einem Navigationsprogramm ermöglicht zusätzliche Daten wie Fahrstrecke, Straßenbedingungen und Verkehrsmuster zu erfassen, was die Genauigkeit der Vorhersagen weiter verbessern kann.
+
+>>Feedback-System:
+Integration eines Feedback-Systems, das während der Fahrt nicht stört, möglicherweise durch Kombination des Programms mit einem Navigationsprogramm um die Ankunft zu erkennen.
+Bei der Ankunft des Benutzers kann das Programm die Möglichkeit bieten, eine Sterneverteilung für die Genauigkeit vorzunehmen.
+Die gesamte Fahrt, einschließlich Distanz, Verbrauch usw., wird gespeichert, um dem Benutzer später die Möglichkeit zu geben, einen Kommentar zu hinterlassen.
+Der Algorithmus könnte diese Kommentare interpretieren und seine Berechnungen entsprechend anpassen, um Fehler in den Datensätzen zu korrigieren und die Genauigkeit weiter zu verbessern.
+
+Wenn Beispielsweise doch nicht mit einem Navigationsprogramm kombiniert wird, dann könnte man ja die Daten direkt an die Sensoren des Autos selbst binden um damit die Genauigkeit des Programms auf dieselbe Art und Weise zu verbessern.
